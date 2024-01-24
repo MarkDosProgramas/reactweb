@@ -1,12 +1,19 @@
 import './index.js';
+import Button from './components/Button/index.js';
+import { Container, Content } from './style.js';
 
 
-function App(){
+
+const App =  () => {
   return(
-    <div className='App'>
-      <p> Olá react</p>
-    </div>
+      <Container>
+        Oi
+        <Content>
+          Oiiiiiiii
+        </Content>
+      </Container>
+        
   )
 }
 
-export default App
+export default App;
